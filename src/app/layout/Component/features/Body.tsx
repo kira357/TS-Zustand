@@ -8,15 +8,8 @@ import { v4 as uuidv4 } from "uuid";
 import useStore from "../../../storeZustand/storeState";
 
 const Body = () => {
-  const [employee, setEmployee] = useState<Employee[]>([]);
-  const [submit, setSubmit] = useState(false);
-
   const {
     loadingEmployee,
-    employees,
-    loadingInit,
-    checkSelectedEmployee,
-    selectedEmployee1,
   } = useStore();
 
   useEffect(() => {
