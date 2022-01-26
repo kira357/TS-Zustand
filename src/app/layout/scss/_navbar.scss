@@ -1,0 +1,10 @@
+.bg-nav {
+  background-image: linear-gradient(to right, #2cccff, #20e3b2, #f57db3);
+  padding: 0 16px;
+  font-size: 18px;
+  .navbar-brand {
+    font-size: 2.2rem;
+    font-family: "Operator mono";
+    font-style: italic;
+  }
+}
