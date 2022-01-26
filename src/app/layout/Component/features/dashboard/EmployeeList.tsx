@@ -1,5 +1,4 @@
 import React from "react";
-import { Employee } from "../../../../models/employee";
 import { List, Skeleton, Button } from "antd";
 import useStore from '../../../../storeZustand/storeState'
 

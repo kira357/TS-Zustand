@@ -6,7 +6,7 @@ import LoadingComponent from "../../loadingComponent";
 const { Meta } = Card;
 
 const EmployeeDetails = () => {
-  const {openForm , closeForm , selectedEmployee1:employee ,cancelSelectedEmployee ,loadingInit} = useStore()
+  const {openForm , selectedEmployee1:employee ,cancelSelectedEmployee ,loadingInit} = useStore()
   
   if(!employee ) return <LoadingComponent inverted={loadingInit} />;;
   return (

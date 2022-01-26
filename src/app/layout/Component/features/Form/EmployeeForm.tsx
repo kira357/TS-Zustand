@@ -1,6 +1,5 @@
 import React, { ChangeEvent, useState } from "react";
-import { Form, Input, Button, Checkbox, Card } from "antd";
-import { Employee } from "../../../../models/employee";
+import { Form, Input, Button, Card } from "antd";
 import useStore from "../../../../storeZustand/storeState";
 
 const EmployeeForm = () => {
